@@ -1,6 +1,6 @@
 ﻿using hafta2_1_halilsahin.Enums;
 
-namespace hafta2_1_halilsahin
+namespace hafta2_1_halilsahin.Atrributes
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class TableAttribute : Attribute
@@ -27,6 +27,6 @@ namespace hafta2_1_halilsahin
         public readonly ColumnDomainEnum DataType;
         public bool Required;
 
-       
+
     }
 }
